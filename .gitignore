@@ -6,6 +6,8 @@ coverage
 *.log
 .env
 .env.local
+.playwright-cli
+*.tsbuildinfo
 apps/api/data
 apps/api/uploads/*
 !apps/api/uploads/.gitkeep
