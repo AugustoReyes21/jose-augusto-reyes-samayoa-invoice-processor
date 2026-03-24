@@ -1,0 +1,149 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1684 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+50 750 Td
+(JOSE AUGUSTO REYES SAMAYOA) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(Repositorio GitHub) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(- URL: https://github.com/AugustoReyes21/jose-augusto-reyes-samayoa-invoice-processor) Tj
+T*
+(- Nombre del repo: jose-augusto-reyes-samayoa-invoice-processor) Tj
+T*
+() Tj
+T*
+(Cambios realizados) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(- Se reemplazo `Caddy` por `Nginx`.) Tj
+T*
+(- Se elimino la dependencia de `DOMAIN` en `.env`.) Tj
+T*
+(- El frontend ahora consume el API usando `/api`.) Tj
+T*
+(- Se preparo HTTPS en `443` usando certificado autofirmado para despliegue por IP.) Tj
+T*
+(- Se agrego guia de Azure y script para crear la VPS con llaves SSH.) Tj
+T*
+() Tj
+T*
+(Validaciones realizadas) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(- `pnpm install`) Tj
+T*
+(- `pnpm build`) Tj
+T*
+(- `docker compose --env-file .env.example config`) Tj
+T*
+(- `docker compose --env-file .env.example build api webapp nginx`) Tj
+T*
+(- `docker compose up -d` con `OPENAI_API_KEY=test`) Tj
+T*
+(- `curl -k https://127.0.0.1`) Tj
+T*
+(- `curl -k https://127.0.0.1/api/`) Tj
+T*
+() Tj
+T*
+(Llave SSH creada para la VM) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(- Privada: `/Users/adriar/.ssh/azure_jose_augusto_reyes_samayoa`) Tj
+T*
+(- Publica: `/Users/adriar/.ssh/azure_jose_augusto_reyes_samayoa.pub`) Tj
+T*
+() Tj
+T*
+(Estado de Azure) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(La parte de codigo y despliegue quedo lista. La creacion real de la VPS por `az` todavia) Tj
+T*
+(depende de autenticar Azure CLI con una cuenta que tenga una suscripcion accesible.) Tj
+T*
+() Tj
+T*
+(Archivos clave) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(- `docker-compose.yml`) Tj
+T*
+(- `docker/nginx/Dockerfile`) Tj
+T*
+(- `docker/nginx/start.sh`) Tj
+T*
+(- `.env.example`) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 104 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+50 750 Td
+(- `AZURE_VPS_DEPLOYMENT.md`) Tj
+T*
+(- `scripts/create-azure-vm.sh`) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000077 00000 n 
+0000000140 00000 n 
+0000000266 00000 n 
+0000002001 00000 n 
+0000002127 00000 n 
+0000002281 00000 n 
+trailer
+<< /Size 8 /Root 7 0 R >>
+startxref
+2330
+%%EOF
